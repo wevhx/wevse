@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /
+ErrorDocument 404 "<H1 style='text-align:center'>Content not found</H1>"
+RewriteRule ^ratelimiter ratelimiter.php
+RewriteRule ^api api.php
+RewriteRule ^sql sql.php
+RewriteRule ^userpanel user.php
+RewriteRule ^usrapi userapi.php
+RewriteRule ^mm mm.txt [L]

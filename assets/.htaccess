@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /
+ErrorDocument 404 "<H1 style='text-align:center'>Content not found</H1>"
+RewriteRule ^js/main.js js/main.js
+RewriteRule ^js/test.js js/test.js
+RewriteRule ^css/custom.css css/custom.css
+RewriteRule ^css/main.css css/main.css
+RewriteRule ^css/style.css css/style.css [L]

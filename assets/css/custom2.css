@@ -1,0 +1,5 @@
+@media only screen and (max-width: 400px) {
+  .text-3xl {
+    font-size: 1rem!important;
+}
+}

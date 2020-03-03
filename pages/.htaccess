@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /
+ErrorDocument 404 "<H1 style='text-align:center'>Content not found</H1>"
+RewriteRule ^lendong home.html
+RewriteRule ^user user.php
+RewriteRule ^register register.php
+RewriteRule ^history history.php
+RewriteRule ^histor2 history.html
+
+RewriteRule ^dev dev.html
+RewriteRule ^privacy-policy privacy-policy.html [L]

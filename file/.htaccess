@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+ErrorDocument 404 "<H1 style='text-align:center'>Content not found</H1>"
+RewriteRule ^wevseapk Wevse.apk
+ [L]

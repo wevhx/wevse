@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /
+ErrorDocument 404 "<H1 style='text-align:center'>Content not found</H1>"
+RewriteRule ^dashboard dashboard.php
+RewriteRule ^login login.php
+RewriteRule ^register register.php [L]

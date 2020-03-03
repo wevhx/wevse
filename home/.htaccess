@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+ErrorDocument 404 "<H1 style='text-align:center'>ra enek</H1>"
+ [L]
